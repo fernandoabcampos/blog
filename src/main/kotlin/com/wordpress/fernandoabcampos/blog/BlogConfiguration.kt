@@ -13,7 +13,7 @@ class BlogConfiguration {
 
         val user = userRepository.save(User("fernando.barbeiro", "Fernando", "Barbeiro"))
         articleRepository.save(Article(
-                title = "The starting with a new programming language",
+                title = "The starting with a new programming language Kotlin",
                 headline = "Lorem ipsum",
                 content = "dolor sit amet",
                 author = user
